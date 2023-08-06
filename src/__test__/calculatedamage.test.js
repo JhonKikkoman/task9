@@ -4,31 +4,28 @@ import ArrayBufferConverter from '../arrayBufferConverter';
 import getBuffer from '../getBuffer';
 
 describe('check in methods class CalculateDamage', () => {
-  //   beforeEach(() => {
-  //     const damage = new CalculateDamage(5);
-  //     return damage;
-  //   });
+  let damage;
+  beforeEach(() => {
+    damage = new CalculateDamage(5);
+    return damage;
+  });
   test('check in method set stoned', () => {
-    const damage = new CalculateDamage(5);
     damage.stoned = true;
     const receiver = damage.stoned;
     expect(receiver).toBe(true);
   });
   test('check in method set attack', () => {
-    const damage = new CalculateDamage(5);
     damage.attack = 40;
     const receiver = damage.attack;
     expect(receiver).toBe(24);
   });
   test('check in method set attack options', () => {
-    const damage = new CalculateDamage(5);
     damage.stoned = true;
     damage.attack = 40;
     const receiver = damage.attack;
     expect(receiver).toBe(12);
   });
   test('method set attack options, attack has zero equal', () => {
-    const damage = new CalculateDamage(5);
     damage.attack = -40;
     const receiver = damage.attack;
     expect(receiver).toBe(0);

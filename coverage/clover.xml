@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1689365550862" clover="3.2.0">
-  <project timestamp="1689365550862" name="All files">
+<coverage generated="1691331627220" clover="3.2.0">
+  <project timestamp="1691331627221" name="All files">
     <metrics statements="29" coveredstatements="29" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="9" elements="42" coveredelements="42" complexity="0" loc="29" ncloc="29" packages="1" files="3" classes="3"/>
     <file name="arrayBufferConverter.js" path="D:\task9\src\arrayBufferConverter.js">
-      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="6" count="3" type="stmt"/>
-      <line num="7" count="3" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="14" count="2" type="stmt"/>
-      <line num="16" count="106" type="stmt"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="53" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
     </file>
     <file name="calculatedamage.js" path="D:\task9\src\calculatedamage.js">
-      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
       <line num="4" count="5" type="stmt"/>
       <line num="8" count="5" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="16" count="3" type="stmt"/>
-      <line num="20" count="4" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="2" type="stmt"/>
       <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="24" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="28" count="1" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
+      <line num="22" count="4" type="stmt"/>
+      <line num="26" count="4" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
     </file>
     <file name="getBuffer.js" path="D:\task9\src\getBuffer.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="2" count="4" type="stmt"/>
-      <line num="3" count="4" type="stmt"/>
-      <line num="4" count="4" type="stmt"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="6" count="4" type="stmt"/>
-      <line num="7" count="212" type="stmt"/>
-      <line num="9" count="4" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="159" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>

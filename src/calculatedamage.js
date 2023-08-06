@@ -13,14 +13,15 @@ export default class CalculateDamage {
   }
 
   get attack() {
-    return this._attack;
-  }
-
-  set attack(value) {
-    let calc = value - (value * ((this.distance - 1) / 10));
+    let calc = this._attack - (this._attack * ((this.distance - 1) / 10));
     if (this.stoned) {
       calc -= Math.log2(this.distance) * 5;
     }
     this._attack = calc > 0 ? Math.floor(calc) : 0;
+    return this._attack;
+  }
+
+  set attack(value) {
+    this._attack = value;
   }
 }
